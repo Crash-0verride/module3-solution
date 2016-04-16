@@ -24,11 +24,9 @@ p {
     height: 75px;
     margin: 5px 10px 5px 0px;
 }
-#collapsable-nav-items {
-    background-color: #A0A0A0;
-}
 #nav-list {
     color: white;
+	background-color: #A0A0A0;
 }
 .navbar-brand {
     font-family: "Dancing Script", sans-serif;
@@ -44,4 +42,7 @@ p {
 .menuItems{
     background-color:grey;
     padding: px;
+}
+#collapsable-nav-items a {
+	border-bottom: 1px solid;
 }
