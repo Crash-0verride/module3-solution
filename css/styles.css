@@ -1,30 +1,47 @@
 body {
 	font-size: 16px;
-	color: white;
 	background-color: #E8E8E8;
+}
+h1 {
+    margin: 0px 0px;
+}
+p {
+    padding: 10px;
+}
+#pageHeader{
+    margin-bottom: 10px;
 }
 
 #header-nav {
-	background-color: #00CC33;
+	background-color: pink;
 	border-radius: 0px;
 	border: 0px;
 }
 
 #logo-img {
-    background: url('../images/fork_logo.png') no-repeat;
-    width: 130px;
-    height: 130px;
+    background: url('../images/fork-knife-small.png') no-repeat;
+    width: 75px;
+    height: 75px;
     margin: 5px 10px 5px 0px;
+}
+#collapsable-nav-items {
+    background-color: #A0A0A0;
+}
+#nav-list {
+    color: white;
 }
 .navbar-brand {
     font-family: "Dancing Script", sans-serif;
-    font-size: 5em;
+    font-size: 0.5em;
     font-weight: bold;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 4px;
     text-shadow: 1px 1px 1px #222;
-    color: white;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
+}
+.menuItems{
+    background-color:grey;
+    padding: px;
 }
