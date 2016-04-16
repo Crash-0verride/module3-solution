@@ -30,6 +30,9 @@ p {
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
+#nav-list a {
+	color:white;
+}
 .navbar-brand {
     font-family: "Dancing Script", sans-serif;
     font-size: 0.5em;
@@ -44,6 +47,7 @@ p {
 .menuItems{
     background-color:grey;
     padding: px;
+	min-height: 1000px;
 }
 #collapsable-nav-items a {
 	border-bottom: 1px solid;
