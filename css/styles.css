@@ -27,6 +27,8 @@ p {
 #nav-list {
     color: white;
 	background-color: #A0A0A0;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 .navbar-brand {
     font-family: "Dancing Script", sans-serif;
